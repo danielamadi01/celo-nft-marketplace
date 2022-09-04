@@ -165,7 +165,7 @@ export default function NFTDetails() {
               </span>
               <span>Price: {formatEther(listing.price)} CELO</span>
               <span>
-                <a
+                <a rel="noreferrer"
                   href={`https://alfajores.celoscan.io/address/${listing.seller}`}
                   target="_blank"
                 >
@@ -180,7 +180,7 @@ export default function NFTDetails() {
               {!isActive && (
                 <span>
                   Listing has been sold to{" "}
-                  <a
+                  <a rel="noreferrer"
                     href={`https://alfajores.celoscan.io/address/${listing.buyer}`}
                     target="_blank"
                   >
